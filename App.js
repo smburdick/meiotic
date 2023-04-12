@@ -3,10 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <div>
+        <View style={styles.container}>
+            <Text>Open up App.js to start working on  app!</Text>
+            <StatusBar style="auto" />
+        </View>
+        <button>Add a device</button>
+    </div>
   );
 }
 
